@@ -1,0 +1,91 @@
+﻿@model IEnumerable<Student>
+@{
+    ViewData["Title"] = "Index";
+    Layout = null;
+}
+
+<h2>Index</h2>
+
+@* 这个是注释符号 *@
+
+@* 内联表达式，表示一个值，以@符号开头 *@
+当前时间为: @DateTime.Now
+
+@*
+    代码块，代码块中可以包含razor代码和html标签，代码块不返回任何值，它只执行代码。代码块以@{ }表示
+    在代码块中，纯服务器代码并不需要以@符号开头，单行纯服务器代码以半角分号结束(;)，
+    只有在html标签中嵌套的服务器代码才以@符号开头，并不需要加上半角分号(;)
+*@
+
+@{
+    //使用var来声明变量，也可以通过使用具体类型来声明
+    var index = 1;//纯服务器代码
+    int type = 1;
+    <br />
+    <div>
+        当前索引：@index
+        <br />
+        当前时间：
+        <span style="color:red;font-weight:500;">@DateTime.Now</span> @*在html标签中嵌套的服务器代码*@
+    </div>
+}
+
+@* for循环，以@for开头 或 在代码块中以for开头，并执行大括号包含的代码块 *@
+@for (var i = 0; i < 10; i++)
+{
+    <li>@i</li>
+}
+
+@* foreach循环，以@foreach开头 或 在代码块中以foreach开头，并执行大括号包含的代码块 *@
+@foreach (var item in Model)
+{
+    <li>@item.Name</li>
+}
+
+@* while循环，以@while开头 或 在代码块中以while开头，并执行大括号包含的代码块 *@
+@while (index < 5)
+{
+    <li>@(index++)</li>
+}
+
+@* if条件语句，以@if开头 或 在代码块中以if开头，if语句开始一个代码块，如果条件为真，则执行大括号内包含的代码块 *@
+@if (index < 10)
+{
+    <span>index  < 10</span>
+    <br />
+}
+
+@* if else 条件语句，@if(条件){ } else if(条件){ } else{ } 为一个整体语句 *@
+@if (index > 10)
+{
+    <span>index>10</span>
+}
+else if (index > 5)
+{
+    <span>index>5</span>
+}
+else
+{
+    <span>index<=5</span>
+    <br/>
+}
+
+
+@* switch语句，以@switch开头 或在代码块中以switch开头，并执行大括号包含的代码块  *@
+@switch (type)
+{
+    case 1:
+        <span>type=1</span>
+        <br/>
+        break;
+    case 2:
+        <span>type=2</span>
+        break;
+    default:
+        <span>type=@type</span>
+        break;
+}
+
+@* 可以使用 @(三元表达式) 的形式来达到 三元表达式 *@
+<span>@(index<=5?true:false)</span>
+

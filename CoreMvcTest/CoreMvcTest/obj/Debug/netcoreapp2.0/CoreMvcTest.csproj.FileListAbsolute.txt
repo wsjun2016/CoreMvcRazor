@@ -1,0 +1,11 @@
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.deps.json
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.runtimeconfig.json
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.runtimeconfig.dev.json
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.dll
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.pdb
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.csprojResolveAssemblyReference.cache
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.csproj.CoreCompileInputs.cache
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.AssemblyInfoInputs.cache
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.AssemblyInfo.cs
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.dll
+E:\vs2017\Play\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.pdb
