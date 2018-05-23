@@ -43,7 +43,7 @@ namespace CoreMvcTest
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Test}/{action=Index}/{id?}");
+                    template: "{controller=HtmlHelperTest}/{action=Index}/{id?}");
             });
         }
     }
