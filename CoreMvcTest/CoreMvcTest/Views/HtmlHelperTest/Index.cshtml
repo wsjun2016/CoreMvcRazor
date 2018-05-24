@@ -5,4 +5,18 @@
 
 <h2>Index</h2>
 
+@*FromViewComponentConent
+    <br/>
+    @await Component.InvokeAsync("Student", new {name= "张三" })*@
+<hr />
+@await Component.InvokeAsync("ImpStudent",new{list=ModelFor.students})
+
+
+
+@*@Html.Partial("Header", ModelFor.students.Take(2).ToList())*@
+
+
+
+
+
 

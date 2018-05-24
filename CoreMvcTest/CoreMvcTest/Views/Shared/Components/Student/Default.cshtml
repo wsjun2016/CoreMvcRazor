@@ -1,0 +1,19 @@
+﻿@model Student
+@* Html.Display:显示某个属性的值
+    @Html.Display(Model的属性名称)
+    @Html.DisplayFor(Model=>Model的属性名称)
+*@
+@Html.DisplayFor(it => it.Birthday)
+
+@* Html.DisplayName:显示 某个属性 的 Display特性的Name属性值，如:[Display(Name="姓名")]
+    @Html.DisplayName(Model的属性名称)
+    @Html.DisplayNameFor(Model=>Model的属性名称)
+*@
+@Html.DisplayNameFor(it => it.Name)
+
+@* Html.DisplayText 与 Html.Display 相同
+*@
+@Html.DisplayText("Birthday")
+
+@Html.DisplayForModel()
+

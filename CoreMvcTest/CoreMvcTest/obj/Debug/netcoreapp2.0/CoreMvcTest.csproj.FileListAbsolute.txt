@@ -20,3 +20,14 @@ E:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\Core
 E:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.AssemblyInfo.cs
 E:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.dll
 E:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.pdb
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.deps.json
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.runtimeconfig.json
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.runtimeconfig.dev.json
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.dll
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\bin\Debug\netcoreapp2.0\CoreMvcTest.pdb
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.csprojResolveAssemblyReference.cache
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.csproj.CoreCompileInputs.cache
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.AssemblyInfoInputs.cache
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.AssemblyInfo.cs
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.dll
+G:\vs2017\Play\CoreMvcRazor\CoreMvcTest\CoreMvcTest\obj\Debug\netcoreapp2.0\CoreMvcTest.pdb

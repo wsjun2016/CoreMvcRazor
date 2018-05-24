@@ -15,11 +15,18 @@ namespace CoreMvcTest.Controllers
             List<Student> students = ModelFor.students;
             return View(students);
         }
-
+       
         public IActionResult Turnto()
         {            
             TempData.TryGetValue("Test",out object test) ;
             return RedirectToAction("Receive", "Test");
+        }
+
+
+        public IActionResult Header(int number)
+        {
+            var list = ModelFor.students.Take(number).ToList();
+            return PartialView();
         }
     }
 }
